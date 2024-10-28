@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/layout_root_category"
+    android:background="@drawable/item_tabbar_bg"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:paddingVertical="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_3sdp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="@dimen/_10ssp"
+        android:textColor="#feca57"
+        android:text="Belize"
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

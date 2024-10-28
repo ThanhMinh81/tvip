@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/nav_playlist"
+        android:title="Playlist Management" />
+    <item
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/nav_favorites"
+        android:title="Favorites" />
+    <item
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/nav_recent_view"
+        android:title="Recently Viewed" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_rate_app"
+            android:title="Rate app" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_trouble"
+            android:title="Troubleshoot" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_share"
+            android:title="Share US" />
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_contact"
+            android:title="Contact US" />
+
+    </group>
+
+    <item
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/nav_setting"
+        android:title="Setting" />
+
+</menu>
